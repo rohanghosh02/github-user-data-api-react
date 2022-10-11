@@ -5,7 +5,7 @@ import { FaGithub } from "react-icons/fa";
 const GithubUsers = ({users}) => {
     return (
         <div>
-            <h2>List of GitHub Users</h2>
+            <h2 className='heading'>List of GitHub Users</h2>
             <div className="container-fluid mt-5">
                 <div className="row text-center">
                     

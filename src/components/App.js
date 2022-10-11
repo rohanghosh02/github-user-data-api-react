@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import Loading from './Loading';
 import GithubUsers from "./GithubUsers";
+import '../styles/App.css'
 
 const App = () => {
 
