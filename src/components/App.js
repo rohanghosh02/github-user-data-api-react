@@ -19,8 +19,22 @@ const App = () => {
         }
     }
 
+    // const getUsersRepo = async () => {
+    //     try {
+    //         const response = await fetch('https://api.github.com/users');
+    //          setLoading(false);
+    //         setUsers(await response.json());
+    //     } catch (error) {
+    //         setLoading(false);
+    //         console.log("my error is "+ error);
+    //     }
+    // }
+
+    
+
     useEffect(() => {
         getUsers();
+       
     }, []);
 
     if (loading) {

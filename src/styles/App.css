@@ -51,3 +51,9 @@ h2 {
 .number3 {
   font-weight: 500;
 } 
+#repo{
+  cursor: pointer;
+}
+#repo:hover{
+  color: rgb(214, 18, 152);
+}
